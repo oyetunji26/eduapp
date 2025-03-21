@@ -2,14 +2,14 @@ import { View, Text } from "react-native";
 import React from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-const explore = () => {
+const myCourses = () => {
   return (
-    <SafeAreaView className="section-x">
+    <SafeAreaView>
       <View>
-        <Text>explore</Text>
+        <Text>my-courses</Text>
       </View>
     </SafeAreaView>
   );
 };
 
-export default explore;
+export default myCourses;
